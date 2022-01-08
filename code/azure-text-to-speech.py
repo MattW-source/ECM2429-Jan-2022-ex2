@@ -23,7 +23,7 @@ voice_api_url = f'https://{region}.tts.speech.microsoft.com/cognitiveservices/v1
 # Make request to text to speech service                            #
 #####################################################################
 
-# Set options as well as authorization token we got earlier
+# Set options and provide our subscription key
 headers = {
     'Ocp-Apim-Subscription-Key': key,
     'Content-Type': 'application/ssml+xml',
